@@ -1,0 +1,25 @@
+{
+  "name": "portchecker",
+  "version": "1.0.0",
+  "description": "Ultra-fast local port scanner — shows process name, PID, command",
+  "main": "dist/index.js",
+  "bin": {
+    "portchecker": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "port",
+    "scanner",
+    "cli",
+    "network"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT"
+}
